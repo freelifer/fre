@@ -14,7 +14,7 @@ import (
 var versionCmd = &cobra.Command{
 	Use:   "version",
 	Short: "print Fre version",
-	Long:  `All software has versions. This is fre's`,
+	Long:  `Print software has versions. This is fre's version`,
 	Run: func(cmd *cobra.Command, args []string) {
 		fmt.Println("fre version 1.0")
 	},
